@@ -2,10 +2,10 @@ document.addEventListener('DOMContentLoaded',() => {
     const idolList = document.getElementById("idol-list");
     const groupFilter = document.getElementById("group-filter");
 
-    const idols =[];
+    let idols =[];
 
     function displayIdols(filteredIdols){
-        idolList.innerHTML = "",
+        idolList.innerHTML = "";
 
         filteredIdols.forEach(idol => {
             const card = document.createElement("div");
