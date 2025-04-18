@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded',() => {
     const idolList = document.getElementById("idol-list");
     const groupFilter = document.getElementById("group-filter");
+    const positionFilter = document.getElementById("position-filter");
 
     let idols =[];
 
@@ -44,11 +45,18 @@ document.addEventListener('DOMContentLoaded',() => {
         });
     }
 
-    groupFilter.addEventListener("change", () => {
+    function applyFilter(){
         const selectedGroup = groupFilter.value;
-        const filtered = selectedGroup ? idols.filter(idol => idol.group === selectedGroup) : idols;
-        displayIdols(filtered)
-    });
+        const selectedPosition = positionFilter.value.toLowerCase();
+
+        const filtered = idols.filter(idol =>{
+            const groupMatch = selectedGroup ? idol.group === selectedGroup : true;
+            const positionMatch = selectedPosition ? idol.position.toLowerCase().includes(selectedPosition) : true;
+            return groupMatch && positionMatch
+        });
+        
+        displayIdols(filtered);
+    }
 
 
     fetch("data/idols.json")
