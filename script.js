@@ -2,29 +2,7 @@ document.addEventListener('DOMContentLoaded',() => {
     const idolList = document.getElementById("idol-list");
     const groupFilter = document.getElementById("group-filter");
 
-    const idols =[
-        {
-            name: "Han Jisung",
-            group: "Stray Kids",
-            position: "Rapper, Producer e Vocal",
-            birth: "2000-09-14",
-            image: "assets/images/han.jpg"
-        },
-        {
-            name: "Yang Jeongin",
-            group: "Stray Kids",
-            position: "Vocal",
-            birth: "2001-02-08",
-            image: "assets/images/i.n3.jpg"
-        },
-        {
-            name: "Choi Soobin",
-            group: "TXT",
-            position: "Líder, Vocal",
-            birth: "2000-12-05",
-            image: "assets/images/soobin.jpg"
-        }
-    ];
+    const idols =[];
 
     function displayIdols(filteredIdols){
         idolList.innerHTML = "",
@@ -40,10 +18,29 @@ document.addEventListener('DOMContentLoaded',() => {
             <p><strong>Grupo:</strong> ${idol.group}</p>
             <p><strong>Posição:</strong> ${idol.position}</p>
             <p><strong>Nascimento:</strong> ${idol.birth}</p>
+            <button class="favorite-btn" data-name="${idol.name}">🤍</button>
             </div>
             `;
 
             idolList.appendChild(card);
+        });
+
+        activateFavoriteButtons();
+    }
+
+    function activateFavoriteButtons(){
+        const buttons = document.querySelectorAll(".favorite-btn");
+
+        buttons.forEach(btn => {
+            const idolName = btn.getAttribute("data-name");
+            const isFav = localStorage.getItem(`fav-${idolName}`) === "true";
+            btn.textContent = isFav ? "💖" : "🤍";
+
+            btn.addEventListener("click", () =>{
+                const current = localStorage.getItem(`fav-${idolName}`) === "true";
+                localStorage.setItem(`fav-${idolName}`, !current);
+                btn.textContent = !current ? "💖" : "🤍";
+            });
         });
     }
 
@@ -53,8 +50,15 @@ document.addEventListener('DOMContentLoaded',() => {
         displayIdols(filtered)
     });
 
-    displayIdols(idols);
-})
+
+    fetch("data/idols.json")
+    .then(res => res.json())
+    .then(data =>{
+        idols = data;
+        displayIdols(idols);
+    })
+    .catch(error => console.error("Erro ao carregar dados: ", error));
+});
 
 const toggleBtn = document.getElementById("toggle-theme");
 
