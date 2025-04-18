@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Han Jisung",
+        "group": "Stray Kids",
+        "position": "Rapper, Producer e Vocal",
+        "birth": "2000-09-14",
+        "image": "assets/image/han.jpg"
+    },
+    {
+        "name": "Yang Jeongin",
+        "group":"Stray Kids",
+        "position": "Vocal",
+        "birth": "2001-02-08",
+        "image":"assets/image/i.n3.jpg"
+    },
+    {
+        "name": "Choi Soobin",
+        "group": "TXT",
+        "position": "Líder e vocal",
+        "birth": "2000-12-05",
+        "image": "assets/image/soobin.jpg"
+    }
+]
