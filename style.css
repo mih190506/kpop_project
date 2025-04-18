@@ -37,12 +37,29 @@ body.dark select{
     border: 1px solid rgba(255, 255, 255, 0.2);
 }
 
+body.dark #toggle-theme{
+    background: linear-gradient(135deg, #6c5ce7, #341f97);
+}
+
 #toggle-theme{
-    transition: transform 0.3 ease;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    background: linear-gradient(135deg, #8e44ad, #6c5ce7);
+    color: white;
+    border: none;
+    border-radius: 50%;
+    padding: 12px 14px;
+    font-size: 18px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s ease, transform 0.3s ease, box-shdow 0.3s ease;
+    z-index: 1000;
 }
 
 #toggle-theme:hover{
-    transform: rotate(20deg);
+    transform: scale(1.1);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.3);
 }
 
 header{
