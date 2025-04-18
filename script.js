@@ -88,6 +88,7 @@ document.addEventListener('DOMContentLoaded',() => {
 
     groupFilter.addEventListener("change", applyFilter);
     positionFilter.addEventListener("change", applyFilter);
+    ageFilter.addEventListener("change", applyFilter);
 
     fetch("data/idols.json")
     .then(res => res.json())
