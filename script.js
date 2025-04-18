@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded',() => {
     const idolList = document.getElementById("idol-list");
     const groupFilter = document.getElementById("group-filter");
     const positionFilter = document.getElementById("position-filter");
+    const ageFilter = document.getElementById("age-filter")
 
     let idols =[];
 
@@ -45,14 +46,40 @@ document.addEventListener('DOMContentLoaded',() => {
         });
     }
 
+    function calcularIdade(dataNascimento){
+        const hoje = new Date();
+        const nascimento = new Date(dataNascimento);
+        let idade = hoje.getFullYear() - nascimento.getFullYear();
+        const mes = hoje.getMonth() - nascimento.getMonth();
+
+        if(mes < 0 || (mes === 0 && hoje.getDate() < nascimento.getDate())) {
+            idade--;
+        }
+        return idade
+    }
+
     function applyFilter(){
         const selectedGroup = groupFilter.value;
         const selectedPosition = positionFilter.value.toLowerCase().trim();
+        const selectedAge = ageFilter.value;
 
         const filtered = idols.filter(idol =>{
             const groupMatch = selectedGroup ? idol.group.toLowerCase() === selectedGroup.toLowerCase() : true;
             const positionMatch = selectedPosition ? idol.position.toLowerCase().includes(selectedPosition) : true;
-            return groupMatch && positionMatch
+
+            const idade = calcularIdade (idol.birth);
+            let ageMatch = true;
+
+            if(selectedAge === "under-22"){
+                ageMatch = idade < 22;
+            }else if(selectedAge === "22-27"){
+                ageMatch = idade >= 22 && idade <= 27;
+            }else if(selectedAge === "over-27"){
+                ageMatch = idade > 27;
+            }
+
+
+            return groupMatch && positionMatch && ageMatch;
         });
         
         displayIdols(filtered);
