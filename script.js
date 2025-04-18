@@ -47,17 +47,20 @@ document.addEventListener('DOMContentLoaded',() => {
 
     function applyFilter(){
         const selectedGroup = groupFilter.value;
-        const selectedPosition = positionFilter.value.toLowerCase();
+        const selectedPosition = positionFilter.value.toLowerCase().trim();
 
         const filtered = idols.filter(idol =>{
-            const groupMatch = selectedGroup ? idol.group === selectedGroup : true;
+            const groupMatch = selectedGroup ? idol.group.toLowerCase() === selectedGroup.toLowerCase() : true;
             const positionMatch = selectedPosition ? idol.position.toLowerCase().includes(selectedPosition) : true;
             return groupMatch && positionMatch
         });
         
         displayIdols(filtered);
+
     }
 
+    groupFilter.addEventListener("change", applyFilter);
+    positionFilter.addEventListener("change", applyFilter);
 
     fetch("data/idols.json")
     .then(res => res.json())
