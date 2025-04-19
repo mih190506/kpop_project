@@ -19,5 +19,12 @@
         "position": "Líder e vocal",
         "birth": "2000-12-05",
         "image": "assets/images/soobin.jpg"
+    },
+    {
+        "name": "Christopher Bang/Bang Chan",
+        "group":"Stray Kids, 3RACHA",
+        "position":"Líder, Vocal, Producer, Rapper e Composer",
+        "birth": "1997-10-03",
+        "image": "assets/image/bangchan.jpg"
     }
 ]
