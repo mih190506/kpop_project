@@ -1,10 +1,24 @@
 [
     {
+        "name": "Christopher Bang/Bang Chan",
+        "group":"Stray Kids",
+        "position":"Líder, Vocal, Producer, Rapper e Composer",
+        "birth": "1997-10-03",
+        "image": "assets/images/bangchan.jpg"
+    },
+    {
         "name": "Han Jisung",
         "group": "Stray Kids",
         "position": "Rapper, Producer e Vocal",
         "birth": "2000-09-14",
         "image": "assets/images/han.jpg"
+    },
+    {
+        "name": "Seo Changbin",
+        "group": "Stray Kids",
+        "position": "Rapper, Vocal, Producer",
+        "birth": "1999-08-11",
+        "image": "assets/images/changbin.jpg"
     },
     {
         "name": "Yang Jeongin",
@@ -14,17 +28,39 @@
         "image":"assets/images/i.n3.jpg"
     },
     {
+        "name": "Yu Jimin/Karina",
+        "group": "Aespa",
+        "position": "Líder, Rapper e Vocal",
+        "birth": "2000-04-11",
+        "image": "assets/images/karina.jpg"
+    },
+    {
+        "name": "Kim Minjeong/Winter",
+        "group": "Aespa",
+        "position": "Vocal e Dancer",
+        "birth": "2001-01-01",
+        "image": "assets/images/winter.jpg"
+    },
+    {
+        "name": "Aeri Uchinaga/Giselle",
+        "group": "Aespa",
+        "position": "Rapper e Vocal",
+        "birth": "2000-10-30",
+        "image": "assets/images/giselle.jpg"
+    },
+    {
+        "name": "Ning Yizhuo/Ningning",
+        "group": "Aespa",
+        "position": "Vocal e Maknae",
+        "birth": "2002-10-23",
+        "image": "assets/images/ningning.jpg"
+        
+    },
+    {
         "name": "Choi Soobin",
         "group": "TXT",
         "position": "Líder e vocal",
         "birth": "2000-12-05",
         "image": "assets/images/soobin.jpg"
-    },
-    {
-        "name": "Christopher Bang/Bang Chan",
-        "group":"Stray Kids, 3RACHA",
-        "position":"Líder, Vocal, Producer, Rapper e Composer",
-        "birth": "1997-10-03",
-        "image": "assets/image/bangchan.jpg"
     }
 ]
