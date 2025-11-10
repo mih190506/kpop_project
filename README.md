@@ -64,5 +64,4 @@ Próximas etapas ⚙️
 
 [ ] Carrossel na home com destaques
 
-
 ━━━ ✧･ﾟ: ✧･ﾟ: 　　 :･ﾟ✧:･ﾟ✧ ━━━
