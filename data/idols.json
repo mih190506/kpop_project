@@ -28,6 +28,13 @@
         "image":"assets/images/i.n3.jpg"
     },
     {
+        "name": "Kim Seungmin",
+        "group":"Stray Kids",
+        "position": "Vocal" ,
+        "birth": "2000-09-22",
+        "image":"assets/images/Seungmin"
+    },
+    {
         "name": "Yu Jimin/Karina",
         "group": "Aespa",
         "position": "Líder, Rapper e Vocal",
