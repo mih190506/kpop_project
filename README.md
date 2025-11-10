@@ -58,9 +58,10 @@ Funcionalidades já disponíveis ✅
 
 Próximas etapas ⚙️
 
-[ ] Página de detalhes para cada idol
+[ ] Página de detalhes para cada grupo com curiosidades 
+
+[ ] Músicas disponiveis para conhecer 
 
 [ ] Carrossel na home com destaques
-
 
 ━━━ ✧･ﾟ: ✧･ﾟ: 　　 :･ﾟ✧:･ﾟ✧ ━━━
