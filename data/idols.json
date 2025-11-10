@@ -58,93 +58,121 @@
     {
         "name": "Christopher Bang/Bang Chan",
         "group":"Stray Kids",
-        "position":"Líder, Vocal, Producer, Rapper e Composer",
+        "position":"Líder, Vocal, Producer, Rapper, Composer e Dancer",
         "birth": "1997-10-03",
         "image": "assets/images/bangchan.jpg"
     },
     {
         "name": "Lee Minho/Lee Know",
         "group": "Stray Kids",
-        "position": "Vocal, Dancer",
+        "position": "Vocal e Dancer",
         "birth": "1998-10-25",
         "image": "assets/images/Minho.jpg"
     },
     {
         "name": "Seo Changbin",
         "group": "Stray Kids",
-        "position": "Rapper, Vocal, Producer",
+        "position": "Rapper, Vocal, Producer e Composer",
         "birth": "1999-08-11",
         "image": "assets/images/changbin.jpg"
     },
     {
         "name": "Hwang Hyunjin",
         "group": "Stray Kids",
-        "position": "Vocal, Dancer",
+        "position": "Vocal e Dancer",
         "birth": "2000-03-20",
         "image": "assets/images/Hyunjin.jpg"
     },
     {
         "name": "Han Jisung",
         "group": "Stray Kids",
-        "position": "Rapper, Producer e Vocal",
+        "position": "Rapper, Producer, Composer e Vocal",
         "birth": "2000-09-14",
         "image": "assets/images/han.jpg"
     },
      {
         "name": "Lee Yongbok/Felix",
         "group":"Stray Kids",
-        "position": "Vocal, Dancer" ,
+        "position": "Vocal e Dancer" ,
         "birth": "2000-09-15",
         "image":"assets/images/Felix.jpg"
     },
      {
         "name": "Kim Seungmin",
         "group":"Stray Kids",
-        "position": "Vocal" ,
+        "position": "Vocal e Composer" ,
         "birth": "2000-09-22",
         "image":"assets/images/Seungmin.jpg"
     },
     {
         "name": "Yang Jeongin",
         "group":"Stray Kids",
-        "position": "Vocal, Maknae" ,
+        "position": "Vocal e Maknae" ,
         "birth": "2001-02-08",
         "image":"assets/images/i.n3.jpg"
     },
     {
         "name": "Yu Jimin/Karina",
         "group": "Aespa",
-        "position": "Líder, Rapper e Vocal",
+        "position": "Líder, Rapper, Dancer e Vocal",
         "birth": "2000-04-11",
         "image": "assets/images/karina.jpg"
     },
     {
         "name": "Kim Minjeong/Winter",
         "group": "Aespa",
-        "position": "Vocal e Dancer",
+        "position": "Vocal, Composer e Dancer",
         "birth": "2001-01-01",
         "image": "assets/images/winter.jpg"
     },
     {
         "name": "Aeri Uchinaga/Giselle",
         "group": "Aespa",
-        "position": "Rapper e Vocal",
+        "position": "Rapper, Composer e Vocal",
         "birth": "2000-10-30",
         "image": "assets/images/giselle.jpg"
     },
     {
         "name": "Ning Yizhuo/Ningning",
         "group": "Aespa",
-        "position": "Vocal e Maknae",
+        "position": "Vocal, Composer e Maknae",
         "birth": "2002-10-23",
         "image": "assets/images/ningning.jpg"
         
     },
+     {
+        "name": "Choi Yeonjun",
+        "group": "TXT",
+        "position": "Rapper, Vocal, Dancer, Composer e Producer",
+        "birth": "1999-09-13",
+        "image": "assets/images/yeonjun.jpg"
+    },
     {
         "name": "Choi Soobin",
         "group": "TXT",
-        "position": "Líder e vocal",
+        "position": "Líder, Rapper, Dancer e Vocal",
         "birth": "2000-12-05",
         "image": "assets/images/soobin.jpg"
+    },
+     {
+        "name": "Choi Beomgyu",
+        "group": "TXT",
+        "position": "Vocal, Composer e Producer",
+        "birth": "2001-03-13",
+        "image": "assets/images/beomgyu.jpg"
+    },
+     {
+        "name": "Kang Taehyun",
+        "group": "TXT",
+        "position": "Vocal, Composer e Producer",
+        "birth": "2002-02-05",
+        "image": "assets/images/taehyun.jpg"
+    },
+     {
+        "name": "Kai Kamal Huening/Huening Kai",
+        "group": "TXT",
+        "position": "Vocal, Dancer, Composer e Maknae",
+        "birth": "2002-08-14",
+        "image": "assets/images/kai.jpg"
     }
 ]
