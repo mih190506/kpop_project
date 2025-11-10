@@ -43,7 +43,7 @@ body.dark #toggle-theme{
 
 #toggle-theme{
     position: fixed;
-    top: 20px;
+    top: 80px;
     right: 20px;
     background: linear-gradient(135deg, #8e44ad, #6c5ce7);
     color: white;
@@ -68,6 +68,11 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+}
+
+nav a{
+    color: #e1e1f0;
+    font-size: medium;
 }
 
 .cards{

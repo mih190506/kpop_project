@@ -20,6 +20,13 @@
         "birth": "1999-08-11",
         "image": "assets/images/changbin.jpg"
     },
+     {
+        "name": "Kim Seungmin",
+        "group":"Stray Kids",
+        "position": "Vocal" ,
+        "birth": "2000-09-22",
+        "image":"assets/images/Seungmin.jpg"
+    },
     {
         "name": "Yang Jeongin",
         "group":"Stray Kids",
@@ -27,13 +34,7 @@
         "birth": "2001-02-08",
         "image":"assets/images/i.n3.jpg"
     },
-    {
-        "name": "Kim Seungmin",
-        "group":"Stray Kids",
-        "position": "Vocal" ,
-        "birth": "2000-09-22",
-        "image":"assets/images/Seungmin"
-    },
+
     {
         "name": "Yu Jimin/Karina",
         "group": "Aespa",
