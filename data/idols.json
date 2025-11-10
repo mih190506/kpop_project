@@ -1,4 +1,60 @@
 [
+      {
+        "name": "Park Seonghwa",
+        "group": "Ateez",
+        "position": "Vocal e Dancer",
+        "birth": "1998-04-03",
+        "image": "assets/images/seongwha.jpg"
+    }, 
+    {
+        "name": "Kim Hongjoong",
+        "group": "Ateez",
+        "position": "Líder, Vocal, Producer, Rapper e Composer",
+        "birth": "1998-11-07",
+        "image": "assets/images/hongjoong.jpg"
+    },
+    {
+        "name": "Jung Yunho",
+        "group": "Ateez",
+        "position": "Vocal, Composer, ",
+        "birth": "1999-03-23",
+        "image": "assets/images/yunho.jpg"
+    },
+     {
+        "name": "Kang Yeosang",
+        "group": "Ateez",
+        "position": "Vocal, Dancer",
+        "birth": "1999-06-15",
+        "image": "assets/images/yeosang.jpg"
+    },
+     {
+        "name": "Choi San",
+        "group": "Ateez",
+        "position": "Vocal e Dancer",
+        "birth": "1999-07-10",
+        "image": "assets/images/san.jpg"
+    },
+     {
+        "name": "Song Mingi",
+        "group": "Ateez",
+        "position": "Rapper, Composer, Producer",
+        "birth": "1999-08-09",
+        "image": "assets/images/mingi.jpg"
+    },
+     {
+        "name": "Jung Wooyoung",
+        "group": "Ateez",
+        "position": "Vocal e Dancer",
+        "birth": "2000-10-12",
+        "image": "assets/images/wooyoung.jpg"
+    },
+     {
+        "name": "Choi Jongho",
+        "group": "Ateez",
+        "position": "Vocal e Maknae",
+        "birth": "1998-04-03",
+        "image": "assets/images/jongho.jpg"
+    },
     {
         "name": "Christopher Bang/Bang Chan",
         "group":"Stray Kids",
@@ -7,11 +63,11 @@
         "image": "assets/images/bangchan.jpg"
     },
     {
-        "name": "Han Jisung",
+        "name": "Lee Minho/Lee Know",
         "group": "Stray Kids",
-        "position": "Rapper, Producer e Vocal",
-        "birth": "2000-09-14",
-        "image": "assets/images/han.jpg"
+        "position": "Vocal, Dancer",
+        "birth": "1998-10-25",
+        "image": "assets/images/Minho.jpg"
     },
     {
         "name": "Seo Changbin",
@@ -19,6 +75,27 @@
         "position": "Rapper, Vocal, Producer",
         "birth": "1999-08-11",
         "image": "assets/images/changbin.jpg"
+    },
+    {
+        "name": "Hwang Hyunjin",
+        "group": "Stray Kids",
+        "position": "Vocal, Dancer",
+        "birth": "2000-03-20",
+        "image": "assets/images/Hyunjin.jpg"
+    },
+    {
+        "name": "Han Jisung",
+        "group": "Stray Kids",
+        "position": "Rapper, Producer e Vocal",
+        "birth": "2000-09-14",
+        "image": "assets/images/han.jpg"
+    },
+     {
+        "name": "Lee Yongbok/Felix",
+        "group":"Stray Kids",
+        "position": "Vocal, Dancer" ,
+        "birth": "2000-09-15",
+        "image":"assets/images/Felix.jpg"
     },
      {
         "name": "Kim Seungmin",
@@ -34,7 +111,6 @@
         "birth": "2001-02-08",
         "image":"assets/images/i.n3.jpg"
     },
-
     {
         "name": "Yu Jimin/Karina",
         "group": "Aespa",
