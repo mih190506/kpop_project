@@ -174,5 +174,19 @@
         "position": "Vocal, Dancer, Composer e Maknae",
         "birth": "2002-08-14",
         "image": "assets/images/kai.jpg"
-    }
+    },
+    {
+         "name": "Kimn Namjoon/Rap Monstar/RM",
+        "group": "BTS",
+        "position": "Rapper, Composer, Producer e Vocal",
+        "birth": "1994-09-12",
+        "image": "assets/images/Namjoon.jpg"
+     },
+     {
+        "name": "Kim Seok-Jin/Jin",
+        "group": "BTS",
+        "position": "Vocal, Composer e Dancer ", 
+        "birth": "1992-12-04",
+        "image": "assets/images/jin.jpg"
+     }
 ]
