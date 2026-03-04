@@ -11,7 +11,7 @@ Sobre o projeto 🎧
 Neste semestre na faculdade, estou tendo aulas mais focadas em JavaScript, então decidi colocar em prática tudo que aprendi nesses três semestres.
 
 Como amo ouvir música enquanto estudo ou programo, resolvi juntar o útil ao agradável:
-Ando curtindo muuuito K-pop (inclusive fui em um show incrível esse mês! 💜), então criei uma página web sobre meus grupos favoritos, com:
+Criei uma página web sobre meus grupos favoritos de Kpop, com:
 
 ✨ Cards de idols com informações básicas
 
